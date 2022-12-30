@@ -1,0 +1,46 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 40px;
+  gap: 2rem;
+  border-bottom: 2px solid #444;
+
+  .left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    border-right: 2px solid #444;
+    height: 5rem;
+
+    h3 {
+      // todo come back later
+    }
+  }
+
+  .center {
+    flex: 4;
+
+    ul {
+      display: flex;
+      justify-content: space-evenly;
+
+      li {
+        text-transform: uppercase;
+        a {
+          color: #fff;
+          transition: all 0.2s ease-in-out;
+
+          &:hover {
+            color: #fff253;
+          }
+        }
+      }
+    }
+  }
+
+  .right {
+    flex: 1;
+  }
+}

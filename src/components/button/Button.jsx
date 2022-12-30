@@ -1,8 +1,20 @@
 import React from "react";
 import "./Button.scss";
 
-const Button = () => {
-  return <div>Navbar</div>;
+const BUTTON_TYPE_CLASSES = {
+  btnWhite: "btn-white",
+  btnPurple: "btn-purple",
+};
+
+const Button = ({ children, buttonType, ...otherProps }) => {
+  return (
+    <button
+      className={`button-container ${BUTTON_TYPE_CLASSES[buttonType]}`}
+      {...otherProps}
+    >
+      {children}
+    </button>
+  );
 };
 
 export default Button;

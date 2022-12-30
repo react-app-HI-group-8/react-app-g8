@@ -1,0 +1,42 @@
+.button-container {
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 64px;
+  gap: 10px;
+  border-radius: 120px;
+  width: fit-content;
+  height: 2.2rem;
+
+  transition: 0.2s ease-in-out;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+
+  &.btn-white {
+    background: #fff;
+    box-shadow: 4px 4px 0px #7843e8;
+    color: #000;
+
+    &:hover {
+      background-color: #7843e8;
+      box-shadow: 4px 4px 0px #fff;
+    }
+  }
+
+  &.btn-purple {
+    background: #7843e8;
+    box-shadow: 4px 4px 0px #fff;
+    color: #000;
+
+    &:hover {
+      background-color: #fff;
+      box-shadow: 4px 4px 0px #fff;
+    }
+  }
+}
