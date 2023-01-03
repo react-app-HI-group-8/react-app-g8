@@ -1,3 +1,38 @@
 .hero {
   height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+
+  .left {
+    flex: 1;
+    border-right: 2px solid #444;
+  }
+
+  .right {
+    flex: 1;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .right_bg {
+      position: relative;
+      display: flex;
+      justify-content: center;
+
+      .hero_circle {
+        border-radius: 50%;
+        filter: opacity(0.2);
+      }
+
+      .hero_img {
+        position: absolute;
+        width: 75%;
+        left: 10%;
+        top: 5%;
+        border-radius: 50%;
+      }
+    }
+  }
 }
