@@ -8,7 +8,7 @@
   .circle_element {
     position: absolute;
     right: 45%;
-    top: 90%;      
+    top: 90%;
   }
 
   .left {
@@ -20,24 +20,21 @@
     flex: 1;
     border-right: 2px solid #444;
     padding: 1.5rem;
-    
+
     h2 {
       font-size: 6rem;
       line-height: 7rem;
       text-align: center;
-      color: #FFFFFF;
+      color: #fff;
     }
-    
+
     p {
       text-align: center;
     }
 
-   
-
     @media (max-width: 768px) {
-      border-right: none
+      border-right: none;
     }
-    
   }
 
   .right {
@@ -71,4 +68,3 @@
     }
   }
 }
-

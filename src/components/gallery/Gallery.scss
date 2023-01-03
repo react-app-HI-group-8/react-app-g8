@@ -1,3 +1,46 @@
 .gallery {
   height: 100vh;
+  margin-top: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #7843e8;
+
+  .carousel-wrapper {
+    width: 100%;
+    .carousel {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      gap: 5rem;
+      width: 80%;
+      margin: 0 auto;
+
+      .carousel_img {
+        max-width: 30%;
+        border-radius: 16px;
+        box-shadow: 4px 4px 0px #fff253;
+      }
+
+      .carousel_info {
+        max-width: 50%;
+        gap: 2rem;
+        padding: 2rem;
+
+        h3 {
+          font-size: 2rem;
+          color: #fff;
+        }
+        h4 {
+          font-size: 1.5rem;
+          color: #fff;
+        }
+        p {
+          font-size: 1rem;
+          color: #dcdcdc;
+        }
+      }
+    }
+  }
 }
