@@ -1,12 +1,43 @@
 .hero {
-  height: 100vh;
+  height: 80vh;
   display: flex;
   justify-content: space-between;
   gap: 1rem;
+  position: relative;
+
+  .circle_element {
+    position: absolute;
+    right: 45%;
+    top: 90%;      
+  }
 
   .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
     flex: 1;
     border-right: 2px solid #444;
+    padding: 1.5rem;
+    
+    h2 {
+      font-size: 6rem;
+      line-height: 7rem;
+      text-align: center;
+      color: #FFFFFF;
+    }
+    
+    p {
+      text-align: center;
+    }
+
+   
+
+    @media (max-width: 768px) {
+      border-right: none
+    }
+    
   }
 
   .right {
@@ -15,6 +46,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media (max-width: 768px) {
+      display: none;
+    }
 
     .right_bg {
       position: relative;
@@ -36,3 +71,4 @@
     }
   }
 }
+

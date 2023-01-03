@@ -3,9 +3,10 @@ import "./Hero.scss";
 
 const Hero = () => {
   return (
-    <section className="hero" id="gallery">
+    <section className="hero" id="home">
+        <img className="circle_element" src="/imgs/circle_element.png" alt="circle_element" />
       <div className="left">
-        <h2>virtual world</h2>
+        <h2>VIRTUAL WORLD</h2>
         <p>
           WELCOME TO Monaki! MEET OUR COLLECTION OF 3.333 UNIQUE NFT. SUPPORT
           AND JOIN OUR COMMUNITY, A NEW WORLD ARE WAITING FOR YOU.
