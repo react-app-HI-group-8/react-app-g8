@@ -14,10 +14,10 @@ const Navbar = () => {
             <a href="#home">home</a>
           </li>
           <li>
-            <a href="#home">gallery</a>
+            <a href="#gallery">gallery</a>
           </li>
           <li>
-            <a href="#home">discord</a>
+            <a href="#marketplace">marketplace</a>
           </li>
         </ul>
       </div>
