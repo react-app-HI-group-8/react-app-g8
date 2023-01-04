@@ -1,3 +1,14 @@
 .marketplace {
   height: 100vh;
+  background: #fff253;
+  display: flex;
+
+  .left {
+    flex: 1;
+    border-right: 2px solid #999;
+  }
+
+  .right {
+    flex: 1;
+  }
 }
