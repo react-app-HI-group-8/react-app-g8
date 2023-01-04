@@ -2,7 +2,7 @@
   width: 400px;
   height: 500px;
   padding: 0.6rem;
-  background-color: #FFF89F;
+  background-color: #fff89f;
 
   border: 1px solid #000;
   border-radius: 8px;
@@ -25,6 +25,7 @@
         width: 40px;
         height: 40px;
         border-radius: 50%;
+        object-fit: cover;
       }
     }
 
@@ -47,9 +48,11 @@
     background: #000;
     border-radius: 16px;
     gap: 1rem;
+
     img {
       width: 300px;
       height: 300px;
+      object-fit: contain;
     }
   }
 }

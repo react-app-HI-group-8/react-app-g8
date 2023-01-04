@@ -13,6 +13,7 @@ const Gallery = () => {
           emulateTouch={true}
           infiniteLoop={true}
           showThumbs={false}
+          useKeyboardArrows={true}
         >
           {images.map((img) => (
             <div className="carousel" key={img.id}>
