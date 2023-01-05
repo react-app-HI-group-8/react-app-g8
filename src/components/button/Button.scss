@@ -11,6 +11,7 @@
   height: 2.2rem;
 
   transition: 0.2s ease-in-out;
+  cursor: pointer;
 
   /* Inside auto layout */
 
@@ -25,7 +26,7 @@
 
     &:hover {
       background-color: #7843e8;
-      box-shadow: 4px 4px 0px #fff;
+      box-shadow: 4px 4px 0px #FFF253;
     }
   }
 
@@ -36,7 +37,29 @@
 
     &:hover {
       background-color: #fff;
-      box-shadow: 4px 4px 0px #fff;
+      box-shadow: 4px 4px 0px #7843e8;
+    }
+  }
+
+  &.btn-black {
+    background: #000;
+    color: #fff;
+    font-weight: 600;
+    border: 1px solid #fff;
+
+    &:hover {
+      background-color: #FFF253;
+      color: #000;
+      box-shadow: 4px 4px 0px #7843e8;
+      border: 1px solid #000;
+    }
+
+    &:active{
+      background: #7843e8;
+      box-shadow: 4px 4px 0px #FFF253;
+      color: #000;
+      border: 1px solid #000;
+      
     }
   }
 }

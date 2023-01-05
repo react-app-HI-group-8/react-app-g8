@@ -3,6 +3,7 @@ import Hero from "./components/hero/Hero";
 import Gallery from "./components/gallery/Gallery";
 import Marketplace from "./components/marketplace/Marketplace";
 import Banner from "./components/Banner/Banner";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Gallery />
       <Banner headingType="marketPlace" />
       <Marketplace />
+      <Footer />
     </div>
   );
 }

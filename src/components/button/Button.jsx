@@ -4,6 +4,7 @@ import "./Button.scss";
 const BUTTON_TYPE_CLASSES = {
   btnWhite: "btn-white",
   btnPurple: "btn-purple",
+  btnBlack: "btn-black",
 };
 
 const Button = ({ children, buttonType, ...otherProps }) => {
