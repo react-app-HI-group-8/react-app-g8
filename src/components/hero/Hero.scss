@@ -10,6 +10,12 @@
     position: absolute;
     right: 45%;
     top: 80%;
+
+    animation-name: spin;
+    animation-duration: 10000ms;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear; 
+    animation-direction: reverse;
   }
 
   .left {
@@ -54,9 +60,14 @@
       display: flex;
       justify-content: center;
 
+      
       .hero_circle {
         border-radius: 50%;
         filter: opacity(0.2);
+        animation-name: spin;
+        animation-duration: 16000ms;
+        animation-iteration-count:infinite;
+        animation-timing-function: linear; 
       }
 
       .hero_img {
@@ -65,7 +76,22 @@
         left: 10%;
         top: 5%;
         border-radius: 50%;
+
+
+       
       }
     }
   }
+  @keyframes spin {
+      from {
+          transform:rotate(0deg);
+      }
+      to {
+          transform:rotate(360deg);
+      }
+  }
 }
+
+
+
+
