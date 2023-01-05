@@ -1,14 +1,15 @@
 .hero {
-  height: 80vh;
+  height: 90vh;
   display: flex;
   justify-content: space-between;
   gap: 1rem;
   position: relative;
+  background: #000;
 
   .circle_element {
     position: absolute;
     right: 45%;
-    top: 90%;
+    top: 80%;
   }
 
   .left {

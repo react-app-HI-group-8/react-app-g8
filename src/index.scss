@@ -9,7 +9,6 @@
 }
 
 body {
-  background-color: #000;
   color: #fff;
 }
 
@@ -27,4 +26,9 @@ a {
 
 ul {
   list-style: none;
+}
+
+.banner_container {
+  position: absolute;
+  top: 0%;
 }

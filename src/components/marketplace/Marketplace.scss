@@ -6,10 +6,10 @@
   .left {
     flex: 1;
     border-right: 2px solid #999;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    }
+  }
 
   .right {
     flex: 1;
@@ -17,33 +17,32 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    
-    .right_top{
+
+    .right_top {
       display: flex;
       flex-direction: column;
       margin-top: 5rem;
       gap: 2rem;
       padding: 1rem;
-      h4{
-        
+      h4 {
         color: #000;
       }
 
-      h2{
-        color: #7843E8;
-        font-weight:900
+      h2 {
+        color: #7843e8;
+        font-weight: 900;
+        font-size: 2rem;
       }
 
-      p{
+      p {
         color: #000;
         font-weight: 700;
       }
     }
 
-    .right_bottom{
-
-      img{}
+    .right_bottom {
+      img {
+      }
     }
-
   }
 }
