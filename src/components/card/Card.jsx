@@ -1,7 +1,6 @@
 import React from "react";
 import "./Card.scss";
 import Button from "../Button/Button";
-import { images } from "../../data";
 
 const Card = () => {
   return (
