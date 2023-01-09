@@ -1,14 +1,10 @@
 import React from "react";
 import "./Banner.scss";
-import {
-  Cursor,
-  useTypewriter,
-} from "react-simple-typewriter";
+import { Cursor, useTypewriter } from "react-simple-typewriter";
 
 const HEADING_NAME = {
-  gallery: "-GALLERY -GALLERY",
-  marketPlace:
-    "-MARKETPLACE -MARKETPLACE ",
+  gallery: "-GALLERY GALLERY-",
+  marketPlace: "-MARKETPLACE MARKETPLACE- ",
 };
 
 const Banner = ({ headingType }) => {
