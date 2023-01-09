@@ -1,0 +1,68 @@
+.gallery {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #7843e8;
+  position: relative;
+
+  .carousel-wrapper {
+    width: 100%;
+    .carousel {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      gap: 2rem;
+      width: 80%;
+      margin: 0 auto;
+      height: 80vh;
+
+      @media (max-width: 768px) {
+        flex-direction: column;
+        gap: 1rem;
+      }
+
+      .carousel_img {
+        max-width: 300px;
+        border-radius: 16px;
+        box-shadow: 4px 4px 0px #fff253;
+
+        @media (max-width: 768px) {
+          min-width: 150px;
+          max-width: 50%;
+        }
+      }
+
+      .carousel_info {
+        display: flex;
+        flex-direction: column;
+        max-width: 50%;
+        gap: 1rem;
+        padding: 2rem;
+
+        @media (max-width: 768px) {
+          max-width: 100%;
+        }
+
+        h3 {
+          font-size: 2rem;
+          color: #fff;
+        }
+        h4 {
+          font-size: 1.5rem;
+          color: #fff;
+        }
+        p {
+          font-size: 1rem;
+          color: #dcdcdc;
+          line-height: 1.2rem;
+
+          @media (max-width: 768px) {
+            font-size: 0.8rem;
+          }
+        }
+      }
+    }
+  }
+}

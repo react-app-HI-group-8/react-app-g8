@@ -1,0 +1,97 @@
+.hero {
+  height: 90vh;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  position: relative;
+  background: #000;
+
+  .circle_element {
+    position: absolute;
+    right: 45%;
+    top: 80%;
+
+    animation-name: spin;
+    animation-duration: 10000ms;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear; 
+    animation-direction: reverse;
+  }
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex: 1;
+    border-right: 2px solid #444;
+    padding: 1.5rem;
+
+    h2 {
+      font-size: 6rem;
+      line-height: 7rem;
+      text-align: center;
+      color: #fff;
+    }
+
+    p {
+      text-align: center;
+    }
+
+    @media (max-width: 768px) {
+      border-right: none;
+    }
+  }
+
+  .right {
+    flex: 1;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width: 768px) {
+      display: none;
+    }
+
+    .right_bg {
+      position: relative;
+      display: flex;
+      justify-content: center;
+
+      
+      .hero_circle {
+        border-radius: 50%;
+        filter: opacity(0.2);
+        animation-name: spin;
+        animation-duration: 16000ms;
+        animation-iteration-count:infinite;
+        animation-timing-function: linear; 
+      }
+
+      .hero_img {
+        position: absolute;
+        width: 75%;
+        left: 10%;
+        top: 5%;
+        border-radius: 50%;
+
+
+       
+      }
+    }
+  }
+  @keyframes spin {
+      from {
+          transform:rotate(0deg);
+      }
+      to {
+          transform:rotate(360deg);
+      }
+  }
+}
+
+
+
+
