@@ -1,6 +1,6 @@
 import React from "react";
 import "./Card.scss";
-import Button from "../button/Button";
+import Button from "../Button/Button";
 import { images } from "../../data";
 
 const Card = () => {

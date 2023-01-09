@@ -1,7 +1,7 @@
-import Navbar from "./components/navbar/Navbar";
-import Hero from "./components/hero/Hero";
-import Gallery from "./components/gallery/Gallery";
-import Marketplace from "./components/marketplace/Marketplace";
+import Navbar from "./components/Navbar/Navbar";
+import Hero from "./components/Hero/Hero";
+import Gallery from "./components/Gallery/Gallery";
+import Marketplace from "./components/Marketplace/Marketplace";
 import Banner from "./components/Banner/Banner";
 import Footer from "./components/Footer/Footer";
 

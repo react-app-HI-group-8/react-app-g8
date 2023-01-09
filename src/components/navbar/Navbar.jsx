@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Button from "../button/Button";
+import Button from "../Button/Button";
 import { Drawer } from "antd";
 import { Spiral as Hamburger } from "hamburger-react";
 import "./Navbar.scss";
