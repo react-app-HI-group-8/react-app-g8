@@ -4,14 +4,22 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 12px 64px;
+  padding: 1.2rem 2.5rem;
   gap: 10px;
   border-radius: 120px;
-  width: fit-content;
+
+  width: 200px;
   height: 2.2rem;
 
   transition: 0.2s ease-in-out;
   cursor: pointer;
+
+  img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #7843e8;
+  }
 
   /* Inside auto layout */
 
@@ -27,7 +35,7 @@
 
     &:hover {
       background-color: #7843e8;
-      box-shadow: 4px 4px 0px #FFF253;
+      box-shadow: 4px 4px 0px #fff253;
     }
   }
 
@@ -36,7 +44,6 @@
     box-shadow: 4px 4px 0px #fff;
     color: #000;
     font-weight: 600;
-
 
     &:hover {
       background-color: #fff;
@@ -51,18 +58,17 @@
     border: 1px solid #fff;
 
     &:hover {
-      background-color: #FFF253;
+      background-color: #fff253;
       color: #000;
       box-shadow: 4px 4px 0px #7843e8;
       border: 1px solid #000;
     }
 
-    &:active{
+    &:active {
       background: #7843e8;
-      box-shadow: 4px 4px 0px #FFF253;
+      box-shadow: 4px 4px 0px #fff253;
       color: #000;
       border: 1px solid #000;
-      
     }
   }
 }

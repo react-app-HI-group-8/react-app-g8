@@ -70,3 +70,30 @@ export const images = [
     text: "Wedge lives for the network. From selling gaming platforms to Mercedes F1, Guinness and UEFA, to ML software for some of the biggest Telecomms companies like Verizon, Vodafone, and T-mobile. This guy knows how to build profile and enjoys nothing more.",
   },
 ];
+
+export const groupMembers = [
+  {
+    id: 1,
+    img: "https://res.cloudinary.com/frank2021/image/upload/v1664808618/portfolio/IMG_0100_abrxzc.jpg",
+    title: "Francisco Sabino",
+    link: "https://franciscosabino.com/",
+  },
+  {
+    id: 2,
+    img: "https://res.cloudinary.com/frank2021/image/upload/v1673361872/group8-imgery/20190408-linkedin-photo-finished_tgmwym.jpg",
+    title: "Regan Ya",
+    link: "https://www.linkedin.com/in/regan-y/",
+  },
+  {
+    id: 3,
+    img: "https://res.cloudinary.com/frank2021/image/upload/v1673361752/group8-imgery/E03A105A-8500-4ADF-924B-2AA346AB3F45_smc6jj.jpg",
+    title: "Morgan Rapaport",
+    link: "https://www.linkedin.com/in/morgan-rapaport-168a35248/",
+  },
+  {
+    id: 4,
+    img: "https://res.cloudinary.com/frank2021/image/upload/v1673361751/group8-imgery/1660512685026_og8aj0.jpg",
+    title: "Sammani Ariyarathne",
+    link: "https://www.linkedin.com/in/sammani-ariyarathne/",
+  },
+];

@@ -1,8 +1,13 @@
 .card_wrapper {
   width: 400px;
-  height: 500px;
+  min-height: 500px;
   padding: 0.6rem;
+  margin: 2rem;
   background-color: #fff89f;
+
+  @media (max-width: 800px) {
+    margin: 0;
+  }
 
   border: 1px solid #000;
   border-radius: 8px;
@@ -12,15 +17,16 @@
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+
   .card_header {
     display: flex;
-    justify-content: space-between;
-    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
     padding: 1rem;
 
     .avatars {
       display: flex;
-
       img {
         width: 40px;
         height: 40px;
@@ -62,7 +68,9 @@
 
 .card_footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
   margin-top: 1rem;
 
   .footer_info {
