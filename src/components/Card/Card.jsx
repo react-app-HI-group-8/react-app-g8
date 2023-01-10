@@ -29,8 +29,8 @@ const Card = () => {
           />
         </div>
         <div className="card_info">
-          <h3>Remaining Time</h3>
-          <h2>09H : 11M : 07S </h2>
+          <p>Remaining Time</p>
+          <p>09H : 11M : 07S </p>
         </div>
       </div>
       <div className="card_main_img">
@@ -38,8 +38,8 @@ const Card = () => {
       </div>
       <div className="card_footer">
         <div className="footer_info">
-          <h2>Current Bid</h2>
-          <h3>7 ETH</h3>
+          <p>Current Bid</p>
+          <p>7 ETH</p>
         </div>
         <Button buttonType="btnPurple">Bid Now</Button>
       </div>

@@ -30,13 +30,16 @@
     }
 
     .card_info {
-      h3 {
+      p:first-child {
         color: #000;
-        font-size: 0.8rem;
+        font-size: 1rem;
+        font-weight: 700;
       }
-      h2 {
+
+      p {
         color: #7843e8;
         font-size: 1.1rem;
+        font-weight: 600;
       }
     }
   }
@@ -61,17 +64,19 @@
   display: flex;
   justify-content: space-between;
   margin-top: 1rem;
+
   .footer_info {
     display: flex;
     align-items: center;
     flex-direction: column;
-    h2 {
+
+    p:first-child {
       color: #000;
       font-size: 1rem;
       font-weight: 700;
     }
 
-    h3 {
+    p {
       color: #7843e8;
       font-size: 1.5rem;
       font-weight: 900;

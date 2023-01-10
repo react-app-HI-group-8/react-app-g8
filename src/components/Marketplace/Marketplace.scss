@@ -1,7 +1,7 @@
 .marketplace {
-  height: 100vh;
-  background: #fff253;
+  height: calc(100vh + 4rem);
   display: flex;
+  background: #fff253;
 
   @media (max-width: 768px) {
     padding: 2rem 1rem;
@@ -34,11 +34,12 @@
       margin-top: 5rem;
       gap: 2rem;
       padding: 1rem;
-      h4 {
+      p:first-child {
+        font-size: 1.5rem;
         color: #000;
       }
 
-      h2 {
+      h3 {
         color: #7843e8;
         font-weight: 900;
         font-size: 2rem;

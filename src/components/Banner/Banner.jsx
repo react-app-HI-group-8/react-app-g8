@@ -11,14 +11,14 @@ const Banner = ({ headingType }) => {
   const [heading] = useTypewriter({
     words: [HEADING_NAME[headingType]],
     loop: true,
-    delaySpeed: 2000,
+    delaySpeed: 1000,
     typeSpeed: 100,
   });
 
   return (
     <div className="banner">
       <h2>{heading}</h2>
-      <Cursor cursorColor="white" />
+      <Cursor cursorColor="white" cursorBlinking={false} />
     </div>
   );
 };
