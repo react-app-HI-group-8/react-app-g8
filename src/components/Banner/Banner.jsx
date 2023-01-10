@@ -3,8 +3,8 @@ import "./Banner.scss";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 
 const HEADING_NAME = {
-  gallery: "-GALLERY GALLERY-",
-  marketPlace: "-MARKETPLACE MARKETPLACE- ",
+  gallery: "NFT GALLERY",
+  marketPlace: "OUR MARKETPLACE",
 };
 
 const Banner = ({ headingType }) => {
