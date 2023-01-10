@@ -8,7 +8,12 @@ const Footer = () => {
     <div className="footer">
       <div className="buttons">
         {groupMembers.map((member) => (
-          <a href={member.link} target="_blank" rel="noreferrer">
+          <a
+            href={member.link}
+            target="_blank"
+            rel="noreferrer"
+            key={member.id}
+          >
             <Button buttonType="btnBlack" type="button">
               <img src={member.img} alt={member.title} />
               {member.title}
