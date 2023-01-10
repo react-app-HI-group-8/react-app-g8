@@ -3,12 +3,22 @@
   background: #fff253;
   display: flex;
 
+  @media (max-width: 768px) {
+    padding: 2rem 1rem;
+    flex-direction: column;
+    text-align: center;
+  }
+
   .left {
     flex: 1;
     border-right: 2px solid #999;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media (max-width: 768px) {
+      border: none;
+    }
   }
 
   .right {
@@ -42,6 +52,9 @@
 
     .right_bottom {
       img {
+        @media (max-width: 768px) {
+          display: none;
+        }
       }
     }
   }
