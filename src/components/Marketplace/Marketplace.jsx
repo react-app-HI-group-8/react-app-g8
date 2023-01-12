@@ -1,23 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import { Modal } from "antd";
 import Banner from "../Banner/Banner";
 import Card from "../Card/Card";
 
 import "./Marketplace.scss";
 
-const Marketplace = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-
-  const showModal = () => {
-    setIsModalOpen(true);
-  };
-  const handleOk = () => {
-    setIsModalOpen(false);
-  };
-  const handleCancel = () => {
-    setIsModalOpen(false);
-  };
-
+const Marketplace = ({ isModalOpen, showModal, handleOk, handleCancel }) => {
   return (
     <div id="marketplace">
       <Banner headingType="marketPlace" />

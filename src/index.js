@@ -4,12 +4,15 @@ import "./index.scss";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { ModalContextProvider } from "./context/modalContext";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <ModalContextProvider>
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  </ModalContextProvider>
 );
 
 // If you want to start measuring performance in your app, pass a function
