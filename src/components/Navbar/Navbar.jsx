@@ -43,6 +43,7 @@ const Navbar = () => {
               type="button"
               onClick={() => {
                 window.location.href = "#marketplace";
+                onClose();
               }}
             >
               BUY NFT
