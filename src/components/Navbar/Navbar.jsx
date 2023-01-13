@@ -25,7 +25,7 @@ const Navbar = () => {
         open={open}
         bodyStyle={{ backgroundColor: "#000" }}
         headerStyle={{ backgroundColor: "#000" }}
-        width={"100%"}
+        width={"fit-content"}
       >
         <ul>
           <li onClick={onClose}>
