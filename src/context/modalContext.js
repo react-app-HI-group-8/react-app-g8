@@ -12,6 +12,7 @@ export const ModalContextProvider = ({ children }) => {
   const handleOk = () => {
     setIsModalOpen(false);
   };
+
   const handleCancel = () => {
     setIsModalOpen(false);
   };

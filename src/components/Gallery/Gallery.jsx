@@ -17,6 +17,7 @@ const Gallery = () => {
             emulateTouch={true}
             infiniteLoop={true}
             showThumbs={false}
+            showStatus={false}
             useKeyboardArrows={true}
           >
             {images.map((img) => (
