@@ -1,11 +1,14 @@
-import React from "react";
+import React, { useContext } from "react";
+import { ModalContext } from "../../context/modalContext";
 import { Modal } from "antd";
 import Banner from "../Banner/Banner";
 import Card from "../Card/Card";
 
 import "./Marketplace.scss";
 
-const Marketplace = ({ isModalOpen, showModal, handleOk, handleCancel }) => {
+const Marketplace = () => {
+  const { showModal, isModalOpen, handleOk, handleCancel } =
+    useContext(ModalContext);
   return (
     <div id="marketplace">
       <Banner headingType="marketPlace" />
