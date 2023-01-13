@@ -68,6 +68,80 @@ ul {
   }
 }
 
+.ant-modal-content {
+  background: #000 !important;
+  color: #fff !important;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+
+  .ant-modal-body {
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+
+      label {
+        color: #fff253;
+        font-size: 1.2rem;
+      }
+
+      input {
+        background: rgb(22, 22, 22);
+        height: 2rem;
+        outline: none;
+        color: #fff253;
+        font-size: 1.1rem;
+        padding: 1.2rem;
+      }
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+    }
+  }
+
+  .ant-modal-header {
+    background: #000 !important;
+
+    .ant-modal-title {
+      color: #fff !important;
+    }
+  }
+  .ant-modal-footer {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.ant-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1.2rem 2.5rem;
+  gap: 10px;
+  border-radius: 120px;
+
+  height: 2.2rem;
+
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+
+  background: #7843e8;
+  box-shadow: 4px 4px 0px #fff;
+  color: #000;
+  font-weight: 600;
+
+  &:hover {
+    background-color: #fff !important;
+    box-shadow: 4px 4px 0px #7843e8;
+    color: #000 !important;
+    outline: none !important;
+  }
+}
+
 /* width */
 ::-webkit-scrollbar {
   display: none;

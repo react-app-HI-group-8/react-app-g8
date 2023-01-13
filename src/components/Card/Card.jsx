@@ -2,7 +2,7 @@ import React from "react";
 import "./Card.scss";
 import Button from "../Button/Button";
 
-const Card = () => {
+const Card = ({ showModal }) => {
   return (
     <div className="card_wrapper">
       <div className="card_header">
@@ -41,7 +41,9 @@ const Card = () => {
           <p>Current Bid</p>
           <p>7 ETH</p>
         </div>
-        <Button buttonType="btnPurple">Bid Now</Button>
+        <Button buttonType="btnPurple" onClick={showModal}>
+          Bid Now
+        </Button>
       </div>
     </div>
   );
